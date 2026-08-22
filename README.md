@@ -35,9 +35,14 @@ both the readable source and the minified bytes.
 
 The source of truth is
 [`keel-web3/render/palette`](https://github.com/Ravonus/keel-modules/tree/master/modules/keel-web3/render/palette)
-in the keel-modules monorepo, at commit `a69ad64041f686a901fb5b94222a82fa714efec7`. Both trees build
-to the same digest above; the mirror exists so this module can be depended on,
-starred, and forked on its own.
+in the keel-modules monorepo. Both trees build to the same digest above; the
+mirror exists so this module can be depended on, starred, and forked on its
+own.
+
+The exact monorepo commit each mirror commit came from is recorded in that
+commit's `Keel-Mirror-Of` trailer, so provenance lives in the history rather
+than in this file: naming a commit here would make every mirror change on every
+monorepo commit, whether or not this module did.
 
 ## Licence
 
