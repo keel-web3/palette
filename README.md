@@ -27,7 +27,13 @@ both the readable source and the minified bytes.
 
 ## Where this comes from
 
-This repository is a mirror. The source of truth is
+> **This repository is a read-only mirror. Do not open pull requests here:**
+> they will be overwritten the next time the mirror is regenerated. Contribute
+> at [keel-modules](https://github.com/Ravonus/keel-modules) instead. If you
+> want to own a module in your own repository, register it by origin rather
+> than mirroring it; see that repository's CONTRIBUTING.md.
+
+The source of truth is
 [`keel-web3/render/palette`](https://github.com/Ravonus/keel-modules/tree/master/modules/keel-web3/render/palette)
 in the keel-modules monorepo, at commit `a69ad64041f686a901fb5b94222a82fa714efec7`. Both trees build
 to the same digest above; the mirror exists so this module can be depended on,
